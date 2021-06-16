@@ -19,4 +19,4 @@ Coding exercise for interview screening
     * Implement at least 2 scenarios
 4. Write the automation for this api request https://jsonplaceholder.cypress.io/posts
      * List the test scenarios you think should be automated
-     * Get the request and validate the resposne data
+     * Get the request and validate the response data
