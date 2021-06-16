@@ -17,3 +17,6 @@ Coding exercise for interview screening
 3. Write automation to test the search and add to cart flow from http://opencart.abstracta.us/index.php
     * List the test scenarios you think should be automated
     * Implement at least 2 scenarios
+4. Write the automation for this api request https://jsonplaceholder.cypress.io/posts
+     * List the test scenarios you think should be automated
+     * Get the request and validate the resposne data
