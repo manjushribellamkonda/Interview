@@ -1,4 +1,4 @@
-# Interview
+# Dotdash Interview
 Coding exercise for interview screening
 
 * Set a vue cli project  - https://cli.vuejs.org/guide/creating-a-project.html
