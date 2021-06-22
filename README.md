@@ -6,7 +6,7 @@ Coding exercise for interview screening
 * Set up the project with page object model 
 * Please demonstrate your coding skills by implementing one of the UI testing projects below using Cypress (the team will be expecting a runnable test automation).
 * Make sure to fork this repo and push a PR with your code for the team to review.
-* As bonus show us what you know about API testing using Cypress by implementing the API testing project below (not a requirement)
+* As bonus, show us what you know about API testing using Cypress by implementing the API testing project below (not a requirement)
 
 **UI Testing projects**
 1. Write automation to test the timestamping conversion tool in https://www.epochconverter.com
