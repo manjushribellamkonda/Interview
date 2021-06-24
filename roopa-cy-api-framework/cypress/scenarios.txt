@@ -1,0 +1,13 @@
+UI Scenarios
+
+1. Should add new todos and persist them in the storage
+2. should mark todos as completed and save it
+3. should delete todos and remove it
+4. should not display todos after a delete
+
+API Scenarios
+
+1. loads all the posts successfully
+2. loads the correct amount of posts per user
+3. should add a new post successfully
+4. should delete a post successfully
