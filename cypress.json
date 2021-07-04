@@ -1,0 +1,8 @@
+{
+    "baseUrl": "http://todomvc-app-for-testing.surge.sh",
+    "viewportHeight": 1400,
+    "viewportWidth": 1400,
+    "env": {
+        "cypress_posts_api": "https://jsonplaceholder.cypress.io/posts"
+    }
+}
