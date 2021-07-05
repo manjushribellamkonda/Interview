@@ -44,5 +44,5 @@ yarn test:api-automation
 ```
 3. To open cypress test runner
 ```sh
-yarn test:cypress-dashboard
+yarn test:cypress-test-runner
 ```
