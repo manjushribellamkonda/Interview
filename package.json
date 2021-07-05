@@ -9,7 +9,7 @@
     "prettify": "prettier --write '**/*.js'",
     "test:ui-automation": "npx cypress run --browser chrome --spec './cypress/integration/ui-automation/*.spec.js'",
     "test:api-automation": "npx cypress run --browser chrome --spec './cypress/integration/api-automation/*.spec.js'",
-    "test:cypress-dashboard":"npx cypress open"
+    "test:cypress-test-runner":"npx cypress open"
   },
   "dependencies": {
     "core-js": "^3.6.5",
