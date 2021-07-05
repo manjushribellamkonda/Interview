@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 context("Cypress API Posts Automation", () => {
-  it("Verify the API response returns id=1", () => {
+  it("Verify the API response has always id=1", () => {
     cy.getCypressPostsResponseWithId(1).then((response) => {
       expect(response.status).to.be.eq(200);
       response.body.forEach((user) => {
@@ -13,7 +13,7 @@ context("Cypress API Posts Automation", () => {
     });
   });
 
-  it("Verify the API response returns userId=4", () => {
+  it("Verify the API response has always userId=4", () => {
     cy.getCypressPostsResponseWithUserId(4).then((response) => {
       expect(response.status).to.be.eq(200);
       response.body.forEach((user) => {
@@ -25,7 +25,7 @@ context("Cypress API Posts Automation", () => {
     });
   });
 
-  it("Verify the API response returns title=magnam ut rerum iure", () => {
+  it("Verify the API response has always title=magnam ut rerum iure", () => {
     cy.getCypressPostsResponseWithTitle("magnam ut rerum iure").then(
       (response) => {
         expect(response.status).to.be.eq(200);
@@ -39,7 +39,7 @@ context("Cypress API Posts Automation", () => {
     );
   });
 
-  it("Verify the API response returns id=6 & userId=1", () => {
+  it("Verify the API response has always id=6 & userId=1", () => {
     cy.getCypressPostsResponseWithIdAndUserId(6, 1).then((response) => {
       expect(response.status).to.be.eq(200);
       response.body.forEach((user) => {
@@ -51,7 +51,7 @@ context("Cypress API Posts Automation", () => {
     });
   });
 
-  it("Verify the API response returns userId=4 & title=enim quo cumque", () => {
+  it("Verify the API response has always userId=4 & title=enim quo cumque", () => {
     cy.getCypressPostsResponseWithWithUserIdAndTitle(
       4,
       "dolorem dolore est ipsa"
@@ -66,7 +66,7 @@ context("Cypress API Posts Automation", () => {
     });
   });
 
-  it("Verify the API response returns id=41, userId=4 & title=enim quo cumque", () => {
+  it("Verify the API response has always id=41, userId=4 & title=enim quo cumque", () => {
     cy.getCypressPostsResponseWithIdUserIdAndTitle(
       41,
       5,

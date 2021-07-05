@@ -42,7 +42,7 @@ yarn test:ui-automation
 ```sh
 yarn test:api-automation
 ```
-3. To open cypress test runner
+3. To open cypress dashboard
 ```sh
 yarn test:cypress-dashboard
 ```
